@@ -63,4 +63,173 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	padding: 50px 100px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+	padding: 0 5px;
+}
+
+nav a:hover {
+	color: deepskyblue;
+}
+
+.logo {
+	margin-left: 100px;
+}
+
+/* Styles that only apply to the Home Page. */
+
+.home-header {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+}
+
+.header-left, .header-right {
+	width: 48%;
+}
+
+.header-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.slogan {
+	text-align: center;
+	font-size: 60px;
+}
+
+.start-button {
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 8px 25px;
+}
+
+.start-button:hover {
+	background-color: powderblue;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.top-content-item {
+	width: 48%;
+}
+
+.middle-img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 40px;
+	margin-bottom:40px;
+	border-bottom: 1px solid black;
+}
+
+.bottom-content-item {
+	width: 31%;
+}
+
+/* Thus endeth the styles for the Home Page. */
+
+/* Here beginneth the styles for the Services page */
+
+.services-header {
+	border-bottom: 2px solid black;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.services-header-img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.services-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid black;
+}
+
+.service {
+	width: 45%;
+	background-color: whitesmoke;
+	border: 1px solid black;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.learn-more-button {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.learn-more-button a {
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 5px 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.learn-more-button a:hover {
+	background-color: powderblue;
+}
+
+.lower-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.services-info, .services-info-img {
+	width: 48%
+}
+
+.services-info {
+	margin-right: 20px;
+}
+
+.services-info p {
+	margin-bottom: 20px;
+}
+
+.services-info ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+.services-info li {
+	margin-bottom: 10px;
+}
+
+/* K, this one applies to both pages. */
+
+footer {
+	margin-bottom: 30px;
+	text-align: center;
+}
