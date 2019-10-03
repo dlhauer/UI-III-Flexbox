@@ -98,8 +98,13 @@ nav a:hover {
 	margin-bottom: 30px;
 }
 
-.header-left, .header-right {
+.header-left {
 	width: 48%;
+}
+
+.header-right {
+	width: 400px;
+	/* height: auto; */
 }
 
 .header-left {
